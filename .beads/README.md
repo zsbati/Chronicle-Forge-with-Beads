@@ -1,81 +1,63 @@
-# Beads - AI-Native Issue Tracking
+# Chronicle Forge - RPG Character Generator & Adventure Game
 
-Welcome to Beads! This repository uses **Beads** for issue tracking - a modern, AI-native tool designed to live directly in your codebase alongside your code.
+A complete browser-based RPG game featuring character creation, branching narratives, and multiple endings.
 
-## What is Beads?
+## Features
 
-Beads is issue tracking that lives in your repo, making it perfect for AI coding agents and developers who want their issues close to their code. No web UI required - everything works through the CLI and integrates seamlessly with git.
+### Character System
+- **3 Unique Classes**: Priest, Inquisitor, Latin Teacher
+- **Character Stats**: Strength, Dexterity, Intelligence, Wisdom, Charisma
+- **Dynamic Backstories**: AI-generated character backgrounds
+- **Visual Character Display**: Canvas-based character visualization
 
-**Learn more:** [github.com/steveyegge/beads](https://github.com/steveyegge/beads)
+### Adventure Mode
+- **Lost Artifact Quest**: Complete branching story campaign
+- **Multiple Endings**: 6 different endings based on class and choices
+- **Choice Tracking**: Player decisions influence the narrative
+- **Class-Specific Options**: Unique dialogue choices per character class
 
-## Quick Start
+### Data Management
+- **Save/Load System**: Persistent character storage
+- **Character Database**: Manage multiple characters
+- **Local Storage**: Browser-based data persistence
 
-### Essential Commands
+## Technical Implementation
 
-```bash
-# Create new issues
-bd create "Add user authentication"
+### Frontend Technologies
+- **HTML5**: Semantic structure and canvas rendering
+- **CSS3**: Responsive design with flexbox layouts
+- **JavaScript ES6+**: Modern JavaScript with modular functions
 
-# View all issues
-bd list
+### Key Technical Features
+- **State Management**: Game state and character data handling
+- **DOM Manipulation**: Dynamic modal and UI generation
+- **Event Handling**: Comprehensive user interaction system
+- **Data Persistence**: localStorage integration
 
-# View issue details
-bd show <issue-id>
+## Game Story: The Lost Artifact Quest
 
-# Update issue status
-bd update <issue-id> --status in_progress
-bd update <issue-id> --status done
+The Sacred Chalice of Atheria has been stolen from the Grand Temple! As a chosen adventurer, you must recover this ancient relic before its dark power corrupts the thief and dooms the realm.
 
-# Sync with git remote
-bd sync
-```
+### Story Locations
+- **Grand Temple**: Starting point and investigation hub
+- **Market District**: bustling area with shady merchants
+- **Ancient Library**: Repository of forbidden knowledge
+- **Hidden Catacombs**: Final confrontation location
 
-### Working with Issues
+### Character Class Abilities
+- **Priest**: Holy rites and exorcism rituals
+- **Inquisitor**: Judgment and interrogation skills  
+- **Latin Teacher**: Ancient incantations and scholarly knowledge
 
-Issues in Beads are:
-- **Git-native**: Stored in `.beads/issues.jsonl` and synced like code
-- **AI-friendly**: CLI-first design works perfectly with AI coding agents
-- **Branch-aware**: Issues can follow your branch workflow
-- **Always in sync**: Auto-syncs with your commits
+## How to Play
 
-## Why Beads?
+1. **Create Character**: Choose class and customize stats
+2. **Start Adventure**: Click "Adventure Mode" to begin quest
+3. **Make Choices**: Select dialogue options to progress story
+4. **Experience Endings**: Reach different conclusions based on decisions
 
-✨ **AI-Native Design**
-- Built specifically for AI-assisted development workflows
-- CLI-first interface works seamlessly with AI coding agents
-- No context switching to web UIs
+## Installation & Setup
 
-🚀 **Developer Focused**
-- Issues live in your repo, right next to your code
-- Works offline, syncs when you push
-- Fast, lightweight, and stays out of your way
-
-🔧 **Git Integration**
-- Automatic sync with git commits
-- Branch-aware issue tracking
-- Intelligent JSONL merge resolution
-
-## Get Started with Beads
-
-Try Beads in your own projects:
-
-```bash
-# Install Beads
-curl -sSL https://raw.githubusercontent.com/steveyegge/beads/main/scripts/install.sh | bash
-
-# Initialize in your repo
-bd init
-
-# Create your first issue
-bd create "Try out Beads"
-```
-
-## Learn More
-
-- **Documentation**: [github.com/steveyegge/beads/docs](https://github.com/steveyegge/beads/tree/main/docs)
-- **Quick Start Guide**: Run `bd quickstart`
-- **Examples**: [github.com/steveyegge/beads/examples](https://github.com/steveyegge/beads/tree/main/examples)
-
----
-
-*Beads: Issue tracking that moves at the speed of thought* ⚡
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/zsbati/Chronicle-Forge-with-Beads.git](https://github.com/zsbati/Chronicle-Forge-with-Beads.git)
